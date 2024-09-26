@@ -9,7 +9,8 @@
 
 
 title: ARCADE Website
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: "ARCADE: Scalable Demonstration Collection and Generation via Augmented Reality for Imitation Learning"
+# A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://yy-gx.github.io/ARCADE
