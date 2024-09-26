@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: ARCADE Website
+description: The website for the IROS 24' conference paper: "ARCADE: Scalable Demonstration Collection and Generation via Augmented Reality for Imitation Learning".
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://YY-GX.github.io/ARCADE
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+  # Template Repository: https://github.com/just-the-docs/just-the-docs-template
