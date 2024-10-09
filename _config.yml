@@ -16,5 +16,6 @@ theme: just-the-docs
 url: https://yy-gx.github.io/ARCADE
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/YY-GX/ARCADE-Codebase
 
+logo: "/assets/images/logo.png"
