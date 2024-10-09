@@ -17,6 +17,6 @@ Yue Yang, Bryce Ikeda, Gedas Bertasius, Daniel Szafir
 
 ## Introduction Video
 <video width="640" height="360" controls>
-  <source src="path-to-your-video.mp4" type="video/mp4">
+  <source src="assets/videos/intro_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
