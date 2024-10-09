@@ -1,6 +1,7 @@
 ---
 title: ARCADE Architecture
 parent: Framework of ARCADE
+layout: page
 nav_order: 1
 ---
 
