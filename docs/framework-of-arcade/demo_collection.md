@@ -5,4 +5,5 @@ layout: page
 nav_order: 2
 ---
 
-arch
+# Device
+The Microsoft HoloLens 2, an augmented reality head-mounted display (ARHMD).
