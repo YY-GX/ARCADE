@@ -4,4 +4,6 @@ parent: Framework of ARCADE
 nav_order: 1
 ---
 
-arch
+<p align="center">
+  <img src="assets/images/arch.png" alt="Architecture" style="width:100%;">
+</p>
