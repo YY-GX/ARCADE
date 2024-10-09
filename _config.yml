@@ -6,6 +6,6 @@ theme: just-the-docs
 url: https://yy-gx.github.io/ARCADE
 
 aux_links:
-  Template Repository: https://github.com/YY-GX/ARCADE-Codebase
+  ARCADE on Github: https://github.com/YY-GX/ARCADE-Codebase
 
-favicon_ico: "/assets/images/logo.png"
+favicon_ico: "/assets/images/logo.ico"
