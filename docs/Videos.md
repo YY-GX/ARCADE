@@ -1,5 +1,5 @@
 ---
 title: Framework of ARCADE
-layout: default
+layout: page
 nav_order: 3
 ---
