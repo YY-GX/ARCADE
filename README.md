@@ -44,7 +44,7 @@ In one window run relaxed_ik
 ```
 roslaunch relaxed_ik_ros1 demo.launch
 ```
- 
+
 To connect to Unity, in another window run
 ```
 hostname -I 
@@ -59,9 +59,14 @@ roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.17.0.2 tcp_ip:=10000
 ## Unity Setup
 Open the Unity project. Within the /Assets/Scenes folder there are two scenes.
 
-1. HandTrackingScene: Tracks the user's hand and sends the data to ROS, the configuration utilized by ARCADE
+1. HandTrackingScene: Tracks the user's hand and sends the data to ROS, the configuration utilized by ARCADE.
 2. ManipulateEEByHandScene: Allows the user to manipulate the end effector of the robot by grabbing the robot's hand and moving it around.
 
-Press play and the project should connect to the docker container. If not, then make sure you are using the correct IP address by typing `hostname -I` in the WSL2 terminal and using the correct IP address in the Unity project.
+Without the Hololens, the space bar can be used to simulate a hand.
+
+Press play and the project should connect to the docker container. If not, then make sure you are using the correct IP address by typing `hostname -I` in the WSL2 terminal and using the correct IP address in the Unity project, within the ROSConnectionPrefab.
 
 If you are having further connection difficulties, you can reference the following videos for help: https://www.youtube.com/watch?v=3KMhdGV6Ql8 and https://www.youtube.com/watch?v=3KMhdGV6Ql8
+
+### Holographic Remoting
+If you would like to run this on the HoloLens, you can use the Holographic Remoting feature in Unity. To do this, you will need to download the Holographic Remoting Player app on the HoloLens then, using the IP address displayed in the app, update the IP address in the Mixed Reality -> Remoting -> Holographic Remoting for Play Mode tab in the Unity project. Then, enable Holographic remoting and press play.
