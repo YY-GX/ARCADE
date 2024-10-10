@@ -62,9 +62,12 @@ Open the Unity project. Within the /Assets/Scenes folder there are two scenes.
 1. HandTrackingScene: Tracks the user's hand and sends the data to ROS, the configuration utilized by ARCADE.
 2. ManipulateEEByHandScene: Allows the user to manipulate the end effector of the robot by grabbing the robot's hand and moving it around.
 
+Press play look at the QR code to align the scene to the QR. The project should connect to the docker container. If not, then make sure you are using the correct IP address by typing `hostname -I` in the WSL2 terminal and using the correct IP address in the Unity project, within the ROSConnectionPrefab.
+
 Without the Hololens, the space bar can be used to simulate a hand.
 
-Press play and the project should connect to the docker container. If not, then make sure you are using the correct IP address by typing `hostname -I` in the WSL2 terminal and using the correct IP address in the Unity project, within the ROSConnectionPrefab.
+### Aligning the virtual robot to the real robot
+To align the virtual robot to the real robot, make sure you have set the QR code in a static position relative to the robot. Then, move the MoveThisToAlignRobotWithRealRobot object in the QR/QROrigin object in the hierarchy. Write down the new Position and Rotation values and update the values in the MoveThisToAlignRobotWithRealRobot object in the hierarchy after stopping the game so that the values persist.
 
 If you are having further connection difficulties, you can reference the following videos for help: https://www.youtube.com/watch?v=3KMhdGV6Ql8 and https://www.youtube.com/watch?v=3KMhdGV6Ql8
 
