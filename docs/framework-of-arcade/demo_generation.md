@@ -20,7 +20,7 @@ To avoid robot's unnatural behaviors when following waypoints, we include the `U
 
   <!-- Video 1 with caption -->
   <div style="text-align: center;">
-    <video width="480" height="270" controls>
+    <video width="480" height="360" controls>
       <source src="../../assets/videos/accept_case.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -29,7 +29,7 @@ To avoid robot's unnatural behaviors when following waypoints, we include the `U
 
   <!-- Video 2 with caption -->
   <div style="text-align: center;">
-    <video width="480" height="270" controls>
+    <video width="480" height="360" controls>
       <source src="../../assets/videos/reject_case.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
