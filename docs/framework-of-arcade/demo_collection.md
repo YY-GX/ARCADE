@@ -14,7 +14,7 @@ To collect demonstrations we utilized the Microsoft HoloLens 2, an Augmented Rea
 
   <!-- Video -->
   <video width="50%" height="auto" controls>
-    <source src="assets/videos/push_ar.mp4" type="video/mp4">
+    <source src="../../assets/videos/push_ar.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
