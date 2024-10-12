@@ -10,8 +10,8 @@ Generate additional demonstrations by following **sampled waypoints** + **key wa
 To obtain **key waypoints**, we propose the `Key-Poses Detector`, which assumes that key waypoints happen in 2 cases:
 <div style="display: flex; justify-content: space-between; align-items: center; margin: 0 10%;">
 
-  <img src="../../assets/images/case1.png" alt="Case 1" style="width: 20%; height: auto;">
-  <img src="../../assets/images/case2.png" alt="Case 2" style="width: 20%; height: auto;">
+  <img src="../../assets/images/case1.png" alt="Case 1" style="width: 30%; height: auto;">
+  <img src="../../assets/images/case2.png" alt="Case 2" style="width: 30%; height: auto;">
 
 </div>
 
