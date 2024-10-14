@@ -40,12 +40,14 @@ make start_ros_arcade <First four digits of Container ID>
 ```
 
 ### Running relaxed_ik
+Right click on the black area of the Terminator window, then click split horizontally to open up a second window. 
+
 In one window run relaxed_ik
 ```
 roslaunch relaxed_ik_ros1 demo.launch
 ```
 
-To connect to Unity, in another window run
+To connect to Unity, in the other window run
 ```
 hostname -I 
 ```
