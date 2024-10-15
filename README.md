@@ -55,7 +55,7 @@ hostname -I
 Take the ip address, in my case it was 172.17.0.2, and input that as the tcp_ip
 
 ```
-roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.17.0.2 tcp_ip:=10000
+roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.17.0.2 tcp_port:=10000
 ```
 
 ## Unity Setup
