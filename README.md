@@ -73,5 +73,5 @@ To align the virtual robot to the real robot, make sure you have set the QR code
 
 If you are having further connection difficulties, you can reference the following videos for help: https://www.youtube.com/watch?v=3KMhdGV6Ql8 and https://www.youtube.com/watch?v=3KMhdGV6Ql8
 
-### Holographic Remoting
+### Viewing with a Hololens via Holographic Remoting
 If you would like to run this on the HoloLens, you can use the Holographic Remoting feature in Unity. To do this, you will need to download the Holographic Remoting Player app on the HoloLens then, using the IP address displayed in the app, update the IP address in the Mixed Reality -> Remoting -> Holographic Remoting for Play Mode tab in the Unity project. Then, enable Holographic remoting and press play.
