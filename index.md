@@ -8,7 +8,9 @@ nav_order: 1
 Yue Yang, Bryce Ikeda, Gedas Bertasius, Daniel Szafir
 
 [Website](https://yy-gx.github.io/ARCADE){: .btn .btn-outline }
-[Paper](https://drive.google.com/file/d/1batts1Ac293R3WA06qmrZxrvNFUm-Z74/view?usp=drive_link){: .btn .btn-outline }
+
+[//]: # ([Paper]&#40;https://drive.google.com/file/d/1batts1Ac293R3WA06qmrZxrvNFUm-Z74/view?usp=drive_link&#41;{: .btn .btn-outline })
+[Paper](http://arxiv.org/abs/2410.15994){: .btn .btn-outline }
 [Code](https://github.com/YY-GX/ARCADE-Codebase){: .btn .btn-outline }
 
 
