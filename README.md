@@ -1,5 +1,25 @@
+# ARCADE: Scalable Demonstration Collection and Generation via Augmented Reality for Imitation Learning
+This repo is the codebase for the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024).
+
+# Table of Contents
+- [Unity and ROS ARCADE components](#unity-and-ros-arcade-components)
+- [Requirements](#requirements)
+- [Initial Setup](#initial-setup)
+- [ROS Setup](#ros-setup)
+  - [Building the Docker container](#building-the-docker-container)
+  - [Running the container](#running-the-container)
+  - [Reopening the container](#reopening-the-container)
+  - [Running relaxed_ik](#running-relaxed_ik)
+- [Unity Setup](#unity-setup)
+  - [Aligning the virtual robot to the real robot](#aligning-the-virtual-robot-to-the-real-robot)
+  - [Viewing with a Hololens via Holographic Remoting](#viewing-with-a-hololens-via-holographic-remoting)
+- [Citing](#citing)
+
+
 # Unity and ROS ARCADE components
-This branch contains the Unity and ROS components for the ARCADE project. Download the repository and follow the instructions below to get started.
+This branch contains the Unity and ROS components (i.e., "AR-assisted Demonstration Collection" section in the paper) for the ARCADE project. Download the repository and follow the instructions below to get started.
+
+We'll release the codebase ASAP for the rest sections when it's cleaned up :)
 
 ## Requirements
 - Windows Machine
@@ -75,3 +95,17 @@ If you are having further connection difficulties, you can reference the followi
 
 ### Viewing with a Hololens via Holographic Remoting
 If you would like to run this on the HoloLens, you can use the Holographic Remoting feature in Unity. To do this, you will need to download the Holographic Remoting Player app on the HoloLens then, using the IP address displayed in the app, update the IP address in the Mixed Reality -> Remoting -> Holographic Remoting for Play Mode tab in the Unity project. Then, enable Holographic remoting and press play.
+
+# Citing
+If you find our work useful, please consider citing our [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10801810):
+```bibtex
+@inproceedings{yang2024arcade,
+  title={ARCADE: Scalable Demonstration Collection and Generation via Augmented Reality for Imitation Learning},
+  author={Yang, Yue and Ikeda, Bryce and Bertasius, Gedas and Szafir, Daniel},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={2855--2861},
+  year={2024},
+  organization={IEEE}
+}
+```
+
